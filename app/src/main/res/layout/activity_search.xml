@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.n561.news.SearchActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#0099ff"
+        >
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ori_title_back"
+            android:background="@android:color/transparent"
+            android:layout_weight="5"
+            android:contentDescription="@string/app_name"
+            android:onClick="goBack"
+            />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:inputType="textFilter"
+            android:background="@android:color/white"
+            />
+    </LinearLayout>
+</FrameLayout>
